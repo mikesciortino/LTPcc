@@ -437,12 +437,125 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .content p{
   color: #4d8090;
-  
-
 }
 
 #hero .content li {
   color: #4d8090;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 20px 0;
+}
+
+.section-bg {
+  background-color: #f6f9fa;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #052c3f;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.about .content h3 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+  color: #4d8090;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.about .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: #85b0be;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about {
+  background-color: #0a1e28;
+}
+
+.about .content p{
+  color: #4d8090;
+}
+
+.about .content li {
+  color: #4d8090;
+}
+
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq {
+ background: #0a1e28;
+}
+
+.faq .faq-item {
+  margin-bottom: 40px;
+}
+
+.faq .faq-item i {
+  color: #85b0be;
+  font-size: 30px;
+  float: left;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.faq .faq-item h4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin: 0 0 10px 40px;
+}
+
+.faq .faq-item p {
+  margin-left: 40px;
 }
 
 
@@ -472,7 +585,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 80px 0;
+  padding: 15px 0;
 }
 
 #footer .footer-top h3 {
